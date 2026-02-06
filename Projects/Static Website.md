@@ -90,7 +90,7 @@ After we created the website, we then went on to host it onto Amazon S3.
 <img width="930" height="280" alt="image" src="https://github.com/user-attachments/assets/4f2701a6-0c5f-4c9d-8c7b-860e6754fb0f" />
 
   &nbsp;
--	As shown, public access was blocked so I had to enable public access, then click ‘Create bucket’
+-	As shown, public access was blocked, enable public access, then click ‘Create bucket’
   <img width="930" height="280" alt="image" src="https://github.com/user-attachments/assets/39e6fe58-513e-4d87-b137-a1b0ede55ae7" />
  &nbsp;
 
@@ -98,17 +98,17 @@ After we created the website, we then went on to host it onto Amazon S3.
 <img width="930" height="270" alt="image" src="https://github.com/user-attachments/assets/4028ac10-25b6-4df3-ab46-0ad987782e2a" />
 
  &nbsp;
--	I clicked the bucket name, navigated to the permissions tab and saw that ‘Block all public access was blocked. I edited this and enabled ‘public access’
+-	Clicked the bucket name, navigated to the permissions tab and saw that ‘Block all public access was blocked. I edited this and enabled ‘public access’
   <img width="930" height="280" alt="image" src="https://github.com/user-attachments/assets/d1cd5d8e-74d2-421b-be71-862c76d8585f" />
   <img width="930" height="280" alt="image" src="https://github.com/user-attachments/assets/eb0c7a47-aade-46ac-aa6b-54b340e60037" />
   
  &nbsp;
- - Thereafter, I scrolled down. Under bucket policy, clicked edit to add a policy.
+ - Thereafter, scroll down, Under bucket policy, clicked edit to add a policy.
 -	Added a policy then saved the changes.
   <img width="905" height="280" alt="image" src="https://github.com/user-attachments/assets/36912bfa-dbd6-4295-a61d-71a02026433d" />
   
  &nbsp;
-  - Under properties> static website hosting, I clicked 'edit'
+  - Under properties> static website hosting, click 'edit'
     <img width="930" height="139" alt="image" src="https://github.com/user-attachments/assets/fcfc75f7-539e-4b28-b558-b87bbb5fc613" />
    &nbsp;
 
@@ -119,7 +119,7 @@ After we created the website, we then went on to host it onto Amazon S3.
 &nbsp;
   - The website has successfully been hosting and is running on Amazon S3.
 
-http://ourfreshlygroundcafe2026.s3-website.af-south-1.amazonaws.com 
+
 <img width="930" height="196" alt="image" src="https://github.com/user-attachments/assets/305eca50-fadf-4dc1-b456-713b43a9e9da" />
 
 ------------

@@ -50,6 +50,7 @@ The script does the following:
 
 After completing the above steps, I clicked *launch instance*  in the right pane, and the following confirmation message appears:
 <img width="940" height="140" alt="image" src="https://github.com/user-attachments/assets/4f8bd5fc-2325-4ab2-83ef-23ce6286052a" />
+&nbsp;
 
 Below is my insance running with all checks passed:
 <img width="800" height="120" alt="image" src="https://github.com/user-attachments/assets/47ac6102-60ea-4f91-a093-2d1a954b8748" />
@@ -62,10 +63,12 @@ With instance status monitoring, you can quickly determine whether Amazon EC2 ha
 -	Notice that all 3 checks have been passed.
 To monitor, I clicked the Actions tab, selected Monitor and troubleshoot, then clicked ”Get instance Screenshot”. 
 <img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/a0595659-a55d-4ed8-b3a9-4232da7c9b33" />
+&nbsp;
 
 The results:
 
 <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/313d9abf-a995-4700-97e5-e4bd486b7a4b" />
+&nbsp;
 
 This confirms that my instance has been created with no underlying issues and is running.
 
@@ -75,7 +78,9 @@ This confirms that my instance has been created with no underlying issues and is
 - Copy the Public IPv4 address of the instance to your clipboard. Open a new tab in the web browser, paste the IP address you’ve copied, then press Enter.
 
 - I can’t access my web server because the security group is not permitting inbound traffic on port 80, which is used for HTTP web requests. This is a demonstration of using a security group as a firewall to restrict the network traffic that is allowed in and out of an instance.
+&nbsp;
 <img width="640" height="300" alt="image" src="https://github.com/user-attachments/assets/53c440e9-35d9-4e57-ac73-0d43db70dfdc" />
+&nbsp;
 
 To correct this, I will now update the security group to permit web traffic on port 80.
 In the left pane,  I navigated to Network and Security, then clicked security groups.
@@ -107,9 +112,11 @@ As your needs change, you might find that your instance is over-utilized (too sm
 Before resizing an instance, you must stop it.
 When you stop an instance, it is shut down. There is no charge for a stopped EC2 instance, but the storage charge for attached Amazon EBS volumes remains.
 <img width="700" height="180" alt="image" src="https://github.com/user-attachments/assets/81c48879-0ddb-4a60-ba60-97936f1d1ada" />
+&nbsp;
 
 I selected *stop instance* and the following text box appeared: 
 <img width="800" height="320" alt="image" src="https://github.com/user-attachments/assets/58b45448-5a3b-44f6-83c3-d60a4ec275bf" />
+&nbsp;
 
 I Clicked stop. my instance will perform a normal shutdown and then will stop running.
  - Wait for the Instance State to display stopped.
@@ -121,6 +128,8 @@ I Clicked stop. my instance will perform a normal shutdown and then will stop ru
 -	Choose *Change instance type*
 When the instance is started again it will be a t3.small, which has twice as much memory as a t3.micro instance.
  <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/cdb9ba6f-417a-48ed-bf0b-4911816c6aa3" />
+ 
+&nbsp;
 
  The instance type has been changed:
  

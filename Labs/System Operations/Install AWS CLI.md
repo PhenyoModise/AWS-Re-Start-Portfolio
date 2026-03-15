@@ -84,3 +84,41 @@ In this section, I observe the IAM configuration details for the EC2 instance in
 <img width="500" height="378" alt="Image" src="https://github.com/user-attachments/assets/339d6e95-61a9-4357-bf29-8f1a52edf4be" />
 
 ------
+_**Task 4: Configure the AWS CLI to connect to your AWS Account**_
+
+1. In the SSH session terminal window, I ran the configure command for the AWS CLI:
+**aws configure**
+
+2. At the prompt, I configured the following:
+- AWS Access Key ID: 
+- AWS Secret Access Key:
+- Default region name:  
+- Default output format: 
+
+(NOT SHOWN)
+
+----
+_**Task 5: Observe IAM configuration details by using the AWS CLI**_
+
+In this section, I observe the IAM configuration details for the EC2 instance using the AWS CLI.
+1. In the terminal window, test the IAM configuration by running the following command:
+
+**aws iam list-users**
+
+A successful test shows a JSON response that includes a list of IAM users in the account.
+
+<img width="500" height="600" alt="Image" src="https://github.com/user-attachments/assets/23f257f2-5dbd-4185-9e80-e3a64efccfe6" />
+
+&nbsp;
+
+The following command lists IAM policies and filters customer managed policies:
+
+<img width="506" height="443" alt="Image" src="https://github.com/user-attachments/assets/a8b3b518-f875-49de-90c6-92543ab7bee6" />
+
+------
+_**Conclusion**_
+
+The following has been completed:
+-	Installed and configured the AWS CLI
+-	Connected the AWS CLI to an AWS account
+-	Accessed IAM by using the AWS CLI

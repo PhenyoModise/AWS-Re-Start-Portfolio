@@ -5,8 +5,9 @@ It includes practical labs, projects, and certifications completed as part of st
 The work in this repository demonstrates foundational and intermediate skills in:
 - Cloud infrastructure
 - Compute and networking services
-- Security and database fundamentals
+- Security and Machine Learning fundamentals
 - Hands-on AWS labs and projects
+- Python and System Operations fundamentals
 
 This portfolio is designed to grow as I continue working on cloud-based solutions and real-world projects.
 
@@ -14,13 +15,13 @@ This portfolio is designed to grow as I continue working on cloud-based solution
 
 ## Repository Structure
 
-### Labs
+### ⭐Labs
 Hands-on labs focused on core Cloud infrastructure concepts.
 
-### Certifications & Badges
+### 🎓Certifications & Badges
 Documentation and evidence of completed cloud learning paths and simulations.
 
-### Projects
+### 🚀Projects
 End-to-end cloud projects demonstrating applied knowledge, architecture design, and deployment.
 
 ---
